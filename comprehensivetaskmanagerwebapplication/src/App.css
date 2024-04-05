@@ -1,0 +1,87 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.signup-headcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-tailcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.login-headcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.signup-form {
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"]
+ {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+
+  .role-checkboxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 1px; /* Adjust the gap between checkboxes and labels */
+  }
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+.navbar-brand {
+  color: black !important ;
+}
+.close {
+width: 40px !important ;
+}
+.modal-header {
+  display: flex !important ;
+  justify-content: space-between !important ;
+}
+
+
